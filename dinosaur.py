@@ -6,6 +6,6 @@ class Dinosaur:
         self.attack_power = attack_power
 
 
-    def attack(self, robot):
+    def attack(self, Robot):
         """robot's health goes down"""
         pass
