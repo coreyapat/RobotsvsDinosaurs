@@ -1,7 +1,7 @@
 from robots import Robots
 
 class AI:
-    def __init__(self):
+    def __init__(self,):
         self.robots = []
         self.create_robots()
 
