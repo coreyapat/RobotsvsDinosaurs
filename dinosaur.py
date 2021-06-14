@@ -1,8 +1,8 @@
 class Dinosaur:
     def __init__(self, type, attack_power):
         self.type = type
-        self.health = 100
-        self.energy = 0
+        self.health = 300
+        self.energy = 200
         self.attack_power = attack_power
 
 
