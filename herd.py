@@ -1,6 +1,6 @@
 from dinosaur import Dinosaur
 
-class Mammal:
+class Herd:
     def __init__(self):
         self.dinosaur = []
         self.create_dinosaur()
@@ -10,6 +10,6 @@ class Mammal:
         rex = Dinosaur("Rex")
         raptor = Dinosaur("Raptor")
         long_neck = Dinosaur("Long Neck")
-        
+
 
 

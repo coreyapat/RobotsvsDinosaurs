@@ -1,6 +1,6 @@
-from robots import Robots
+from robot import Robot
 
-class AI:
+class Fleet:
     def __init__(self,):
         self.robots = []
         self.create_robots()
@@ -11,3 +11,4 @@ class AI:
         aida = Robot("Aida")
         robo_cop = Robot("Robo Cop")
         iron_man = Robot("Iron Man")
+        self.robots.append(aida, robo_cop, iron_man)
